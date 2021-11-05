@@ -1,6 +1,8 @@
 function getDestination(){
   //
   let destinations = ['dest1', 'dest2', 'dest3', 'dest4'];
+  let selection = destinations[Math.floor(Math.random() * (destinations.length))];
+  return selection;
 };
 
 function getTransportaion(){
